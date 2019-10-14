@@ -1128,7 +1128,7 @@ int play_minion(int choice1, int choice2, int currentPlayer, struct gameState *s
 					//discard hand
 					while (state->handCount[i] > 0)
 					{
-						discardCard(handPos, i, state, 0);
+						discardCard(0, i, state, 0);
 					}
 
 					//draw 4
