@@ -1580,7 +1580,6 @@ int play_mine(int choice1, int choice2, int currentPlayer, struct gameState *sta
 
 }
 
->>>>>>> Stashed changes
 int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
 {
 
