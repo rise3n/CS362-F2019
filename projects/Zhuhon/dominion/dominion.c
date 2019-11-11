@@ -1263,8 +1263,6 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     return -1;
 }
 
-<<<<<<< Updated upstream
-=======
 int play_baron(int choice1, int currentPlayer, struct gameState *state, int handPos, int *bonus) {
 	state->numBuys++;//Increase buys by 1!
 	if (choice1 > 0) 
